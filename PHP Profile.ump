@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UModel version="16">
+	<Model>
+		<Package uuid="00000001-7510-11d9-86f2-000476a22f44" name="Root" visibility="public">
+			<packagedElement>
+				<Package uuid="00000003-7510-11d9-86f2-000476a22f44" name="Component View" visibility="public"/>
+				<Profile uuid="59c55a52-3e18-4fbb-a5cc-6c01b9bf3b0b" name="PHP Profile" visibility="public" shared="true">
+					<packagedElement>
+						<PrimitiveType uuid="545e8365-b185-4ae8-8364-637e1edc21cb" name="string" visibility="public"/>
+						<PrimitiveType uuid="0f99a97c-d61a-4cd7-a1a4-5f294a5d5780" name="float" visibility="public"/>
+						<PrimitiveType uuid="0edc2bfa-62d0-4b96-bd70-9d060a4e18d2" name="int" visibility="public"/>
+						<PrimitiveType uuid="184a0d9c-09b3-471b-85cd-f3df2b6cddbd" name="array" visibility="public"/>
+						<PrimitiveType uuid="0afa2c5e-f2da-4959-8c5c-195265feae70" name="callable" visibility="public"/>
+						<PrimitiveType uuid="eea10ffc-9545-4985-9ddd-12783b2a4379" name="bool" visibility="public"/>
+						<PrimitiveType uuid="550e5d45-e3d4-48f8-b4ea-0f70f2dcded8" name="void" visibility="public"/>
+						<PrimitiveType uuid="8b95617a-ef2f-49a2-b3f4-df2bf7f80d1b" name="iterable" visibility="public"/>
+						<Class uuid="a8f50cf5-6943-497b-b39f-4ca14d49429b" name="PDO" visibility="public"/>
+						<Class uuid="14ea5d55-069b-487e-b945-433b2080b2bd" name="PDOStatement" visibility="public"/>
+						<Class uuid="a23c233e-c2d0-43aa-85e8-a7266246472a" name="DateTime" visibility="public"/>
+						<PrimitiveType uuid="db4a0dfd-1144-40e4-96ed-614ed611072b" name="object" visibility="public"/>
+						<Interface uuid="444eabb3-091b-4af7-8bb8-936dfa8f0061" name="Throwable" visibility="public"/>
+						<Interface uuid="52ac3f7c-7551-43d5-8829-2dcd13a53c1d" name="Serializable" visibility="public"/>
+						<Class uuid="4701fef7-f0c7-4784-837c-4c7ca32512ff" name="Error" visibility="public"/>
+						<Class uuid="182596c7-7f1f-4931-8a5d-493a77b16f5f" name="Exception" visibility="public"/>
+						<Class uuid="e98f9d81-a048-4615-9078-90c3b6e5356c" name="RuntimeException" visibility="public"/>
+						<Interface uuid="62bec823-ce48-4e15-926d-a13aab8596f0" name="DateTimeInterface" visibility="public"/>
+						<Class uuid="89ac6dd9-f145-49b1-8bf3-ff6220ce4dd4" name="DateTimeImmutable" visibility="public"/>
+						<Class uuid="fb449e9a-1310-455f-b20b-cb33f163772b" name="DateInterval" visibility="public"/>
+						<Class uuid="78f4d460-72dc-43f2-a4e7-5f1a689448af" name="DatePeriod" visibility="public"/>
+						<Interface uuid="f11fd68f-d6e4-48ef-a5fa-a6c296c1dfd8" name="JsonSerializable" visibility="public"/>
+						<Class uuid="34a000b3-e896-4309-8e74-28fc1c5ed6ee" name="PDOException" visibility="public"/>
+						<Interface uuid="3e84e948-6706-4a0c-9608-edec74dad6ec" name="Countable" visibility="public"/>
+						<Package uuid="e26f901f-84ab-442f-beb2-80397e9f7e5f" name="Psr" visibility="public">
+							<packagedElement>
+								<Package uuid="1f664031-1273-448d-9a70-64df219c1135" name="Log" visibility="public">
+									<packagedElement>
+										<Interface uuid="6d7d37fe-9494-4eb4-a29c-d7fee36f4714" name="LoggerInterface" visibility="public"/>
+										<Interface uuid="762fef09-56e5-4787-82a1-8caaea4d1241" name="LoggerAwareInterface" visibility="public"/>
+									</packagedElement>
+								</Package>
+							</packagedElement>
+						</Package>
+						<Stereotype uuid="76f1cb26-76f7-4e67-a3c1-6891a700e6cb" name="constructor" visibility="public" baseClass="Operation"/>
+						<PrimitiveType uuid="0df7f1eb-5ede-4405-bc72-e500941b5d3c" name="mixed" visibility="public"/>
+					</packagedElement>
+				</Profile>
+			</packagedElement>
+		</Package>
+	</Model>
+	<Diagrams>
+		<RootElement uuid="00000002-7510-11d9-86f2-000476a22f44"/>
+	</Diagrams>
+</UModel>
