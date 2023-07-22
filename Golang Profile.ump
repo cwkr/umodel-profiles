@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UModel version="18">
+	<Model>
+		<Package uuid="00000001-7510-11d9-86f2-000476a22f44" name="Root" visibility="public">
+			<packagedElement>
+				<Package uuid="00000003-7510-11d9-86f2-000476a22f44" name="Component View" visibility="public"/>
+				<Profile uuid="487fbc46-3a36-485d-b918-3bdf25e32052" name="Golang Profile" visibility="public" shared="true">
+					<packagedElement>
+						<PrimitiveType uuid="3b191d62-d8e7-4e50-971e-736cd2fad3d5" name="int" visibility="public"/>
+						<PrimitiveType uuid="229148bc-218e-475d-94ed-22b24aee4a20" name="uint" visibility="public"/>
+						<PrimitiveType uuid="377d9093-d416-4495-91cc-405ddee7db7e" name="byte" visibility="public"/>
+						<PrimitiveType uuid="b4deb12b-727d-41df-b94b-7df4306b014d" name="int8" visibility="public"/>
+						<PrimitiveType uuid="f2ba84be-8715-4031-9804-86a15e5b05f8" name="uint8" visibility="public"/>
+						<PrimitiveType uuid="1ac06608-bbec-417c-97c1-40310c0efd70" name="int16" visibility="public"/>
+						<PrimitiveType uuid="275a4868-6a2b-45dd-b5ed-e9e6f710987e" name="uint16" visibility="public"/>
+						<PrimitiveType uuid="2a08dd55-858f-4fa6-b662-b3d07242dd38" name="int32" visibility="public"/>
+						<PrimitiveType uuid="efaeb5d3-84be-4371-8ebf-1788c74f47b9" name="uint32" visibility="public"/>
+						<PrimitiveType uuid="93c73a0c-f190-4088-989d-16e698c73688" name="int64" visibility="public"/>
+						<PrimitiveType uuid="bd7aaaa0-743f-4f90-97ce-7c6fe5d9da93" name="uint64" visibility="public"/>
+						<PrimitiveType uuid="d628ce50-f1e1-4e3b-a240-b5afc6459a5f" name="bool" visibility="public"/>
+						<PrimitiveType uuid="533c7129-7e93-4f3c-b768-8a1eb2f388a5" name="string" visibility="public"/>
+						<PrimitiveType uuid="80d908f5-22ec-4acf-8c04-3b409dd29186" name="rune" visibility="public"/>
+						<PrimitiveType uuid="deead03a-e321-468d-9be6-4c554c17c684" name="float32" visibility="public"/>
+						<PrimitiveType uuid="a4149273-566c-4152-9aa9-4d395dc429cc" name="float64" visibility="public"/>
+						<PrimitiveType uuid="d8aba4aa-4fbc-4efc-8ead-d8d80cd76272" name="complex64" visibility="public"/>
+						<PrimitiveType uuid="cc6ed4b3-f956-4235-8dfd-a21a7b506f7f" name="complex128" visibility="public"/>
+						<PrimitiveType uuid="5c5e486f-4027-44dd-a982-26bcf4f7509a" name="error" visibility="public"/>
+						<PrimitiveType uuid="1fa8bf44-c383-47f0-b733-3a7a5a7f1226" name="any" visibility="public"/>
+						<PrimitiveType uuid="901882c2-1454-47df-bb35-51c29e9f68e3" name="uintptr" visibility="public"/>
+					</packagedElement>
+				</Profile>
+			</packagedElement>
+		</Package>
+	</Model>
+	<Diagrams>
+		<RootElement uuid="00000002-7510-11d9-86f2-000476a22f44"/>
+	</Diagrams>
+</UModel>

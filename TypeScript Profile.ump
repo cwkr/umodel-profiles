@@ -14,7 +14,10 @@
 						<PrimitiveType uuid="9f6c46ec-72b1-466e-8186-11f111d0a9ff" name="object" visibility="public"/>
 						<Stereotype uuid="de629e1f-dec2-4d67-8825-ec4e0ddfd312" name="constructor" visibility="public" baseClass="Operation"/>
 						<PrimitiveType uuid="5ee7aa0b-058e-4d0d-90a1-5e6fdb02b8c6" name="bigint" visibility="public"/>
-						<Stereotype uuid="0b3c2e95-c6a3-4251-8450-89949f858d71" name="async" visibility="public"/>
+						<Stereotype uuid="0b3c2e95-c6a3-4251-8450-89949f858d71" name="async" visibility="public" baseClass="Operation"/>
+						<PrimitiveType uuid="cee4666f-9cd4-4551-8a29-524f2b35b035" name="unknown" visibility="public"/>
+						<PrimitiveType uuid="e175c720-2b7d-4651-8e86-f702b8ab48d3" name="symbol" visibility="public"/>
+						<PrimitiveType uuid="4489f14b-abc4-4260-b8de-e2ec4944233a" name="never" visibility="public"/>
 					</packagedElement>
 				</Profile>
 			</packagedElement>
