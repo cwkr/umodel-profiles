@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<UModel version="18">
+<UModel version="21">
+	<Settings CppMSCVersion="1900"/>
 	<Model>
 		<Package uuid="00000001-7510-11d9-86f2-000476a22f44" name="Root" visibility="public">
 			<packagedElement>
@@ -18,6 +19,7 @@
 						<PrimitiveType uuid="cee4666f-9cd4-4551-8a29-524f2b35b035" name="unknown" visibility="public"/>
 						<PrimitiveType uuid="e175c720-2b7d-4651-8e86-f702b8ab48d3" name="symbol" visibility="public"/>
 						<PrimitiveType uuid="4489f14b-abc4-4260-b8de-e2ec4944233a" name="never" visibility="public"/>
+						<PrimitiveType uuid="39d385d7-95b6-46a4-9b23-eca56cd8b8ab" name="undefined" visibility="public"/>
 					</packagedElement>
 				</Profile>
 			</packagedElement>
