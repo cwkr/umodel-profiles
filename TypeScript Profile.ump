@@ -13,13 +13,26 @@
 						<PrimitiveType uuid="573fd31a-7393-42d6-ae3c-dd74298614b1" name="any" visibility="public"/>
 						<PrimitiveType uuid="e099c928-292e-404e-9f83-366b1b34beac" name="void" visibility="public"/>
 						<PrimitiveType uuid="9f6c46ec-72b1-466e-8186-11f111d0a9ff" name="object" visibility="public"/>
-						<Stereotype uuid="de629e1f-dec2-4d67-8825-ec4e0ddfd312" name="constructor" visibility="public" baseClass="Operation"/>
 						<PrimitiveType uuid="5ee7aa0b-058e-4d0d-90a1-5e6fdb02b8c6" name="bigint" visibility="public"/>
 						<Stereotype uuid="0b3c2e95-c6a3-4251-8450-89949f858d71" name="async" visibility="public" baseClass="Operation"/>
 						<PrimitiveType uuid="cee4666f-9cd4-4551-8a29-524f2b35b035" name="unknown" visibility="public"/>
 						<PrimitiveType uuid="e175c720-2b7d-4651-8e86-f702b8ab48d3" name="symbol" visibility="public"/>
 						<PrimitiveType uuid="4489f14b-abc4-4260-b8de-e2ec4944233a" name="never" visibility="public"/>
 						<PrimitiveType uuid="39d385d7-95b6-46a4-9b23-eca56cd8b8ab" name="undefined" visibility="public"/>
+						<Class uuid="f057317d-aae1-4bf4-b45c-c7fd2232c15c" name="Promise" visibility="public">
+							<ownedTemplateSignature>
+								<TemplateSignature uuid="6e461b9c-f91f-4b65-919a-9d07e0757552">
+									<ownedParameter>
+										<ClassifierTemplateParameter uuid="0c7254ea-6ee3-47ce-8209-b275049554f1">
+											<ownedParameteredElement>
+												<Class uuid="ffccf925-ad6f-46b6-8865-1aa47b3a0cb9" name="T" visibility="public"/>
+											</ownedParameteredElement>
+										</ClassifierTemplateParameter>
+									</ownedParameter>
+								</TemplateSignature>
+							</ownedTemplateSignature>
+						</Class>
+						<Class uuid="1c6a7b8b-86af-4ba7-839e-e77681cf84d5" name="Date" visibility="public"/>
 					</packagedElement>
 				</Profile>
 			</packagedElement>
