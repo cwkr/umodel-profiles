@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<UModel version="18">
+<UModel version="24">
+	<Settings CppMSCVersion="1900"/>
 	<Model>
 		<Package uuid="00000001-7510-11d9-86f2-000476a22f44" name="Root" visibility="public">
 			<packagedElement>
@@ -27,6 +28,7 @@
 						<PrimitiveType uuid="5c5e486f-4027-44dd-a982-26bcf4f7509a" name="error" visibility="public"/>
 						<PrimitiveType uuid="1fa8bf44-c383-47f0-b733-3a7a5a7f1226" name="any" visibility="public"/>
 						<PrimitiveType uuid="901882c2-1454-47df-bb35-51c29e9f68e3" name="uintptr" visibility="public"/>
+						<Stereotype uuid="79361585-b451-4d40-8ddf-100ea718677f" name="struct" visibility="public" baseClass="Classifier"/>
 					</packagedElement>
 				</Profile>
 			</packagedElement>
